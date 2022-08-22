@@ -17,4 +17,7 @@ jobs:
         with:
             distribution: 'temurin'
             java-version: '17'
-      - uses: education/autograding@v1
+      - name: Unit tests
+        uses: education/autograding@v1
+      - name: Check Code Style
+        uses: nikitasavinov/checkstyle-action@0.6.0
