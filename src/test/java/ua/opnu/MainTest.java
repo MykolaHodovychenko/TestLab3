@@ -10,7 +10,7 @@ public class MainTest {
     @Test
     @DisplayName("Adding two numbers")
     public void testFunc() {
-        assertEquals(Main.func(2, 2), 5, "Херня какая-то");
+        assertEquals(Main.func(2, 2), 4, "Херня какая-то");
     }
 
 }

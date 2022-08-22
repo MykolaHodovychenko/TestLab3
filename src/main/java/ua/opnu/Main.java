@@ -6,6 +6,6 @@ public class Main {
     }
 
     public static int func(int a, int b) {
-        return a + b;
+        return 0;
     }
 }
